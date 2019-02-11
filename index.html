@@ -8,6 +8,22 @@
   <style>
    body {
      font-family: sans-serif;
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   @keyframes spin {
+     from {
+        transform: rotate(0turn) 
+     }
+     to {
+       transform: rotate(1turn)
+     }
+   }
+   h1 {
+    animation: spin 1000ms linear infinite; 
    }
   </style>
 </head>
